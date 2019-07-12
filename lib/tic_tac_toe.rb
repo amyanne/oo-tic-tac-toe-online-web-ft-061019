@@ -96,6 +96,8 @@ class TicTacToe
     def play
         turn 
         if draw?
+          puts "Cat's Game!"
+        
       end
 
 end
