@@ -70,12 +70,8 @@ class TicTacToe
  end
 
  def full?
-   if @board.include?(" ")
-     false
-   else
-     true
-   end
- end
+        @board.all?{|content| content != " "}
+    end
 
  def draw?
         !(won?) && (full?)
