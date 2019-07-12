@@ -94,7 +94,7 @@ class TicTacToe
     end
     
     def play
-        while !=
+        while != 
         turn 
         if draw?
           puts "Cat's Game!"
