@@ -86,12 +86,8 @@ class TicTacToe
  end
 
  def over?
-   if draw? || won?
-     true
-   else
-     false
-   end
- end
+        won? || full? || draw?
+    end
 
    def winner
         WIN_COMBINATIONS.detect do |combo|
